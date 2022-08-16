@@ -1,0 +1,76 @@
+.App {
+  text-align:center;
+  display:flex;
+  justify-content:center;
+  height:100vh;
+  flex-direction:column;
+  color:white;
+}
+
+section > form > p {
+  margin-bottom: 1em;
+  color:white;
+  padding:0 2em;
+}
+section > form > input {
+  border: 2px solid white;
+  background: transparent;
+  color:white;
+  padding:1.5em;
+  width:20em;
+  margin-bottom:2em;
+}
+section > form > button {
+  border: 2px solid white;
+  background:white;
+  color:black;
+  font-weight:800;
+  padding:1.5em;
+  max-width:100%;
+  margin-bottom:4em;
+}
+section > div {
+  max-width:80%;
+  margin:0 auto;
+}
+
+section > div > a {
+  border:1px solid white;
+  border-radius:5em;
+  padding:1em 1.4em;
+  margin:4em  1em;
+}
+/***** COUNTDOWN ********/
+.countdown {
+  display: flex;
+  flex-direction:row;
+  justify-content:center;
+  
+}
+
+.countdown > div {
+  margin:0 1em;
+  font-size:1.4em;
+  font-weight:800;
+  max-width:80%;
+}
+
+.link_social {
+  display:flex;
+  justify-content:center;
+}
+
+a {
+  color:white;
+  text-decoration:none;
+  font-weight:700;
+}
+
+@media only screen and (max-width: 760px) {
+  .countdown > div {
+    margin:0 1em;
+    font-size:1em;
+    font-weight:800;
+    max-width:80%;
+  }
+}
